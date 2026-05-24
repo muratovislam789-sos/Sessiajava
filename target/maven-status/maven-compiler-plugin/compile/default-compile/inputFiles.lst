@@ -1,0 +1,14 @@
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\db\DatabaseConnection.java
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\db\SchemaInitializer.java
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\Main.java
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\model\Author.java
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\model\Book.java
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\model\Category.java
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\repository\AuthorRepository.java
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\repository\BookRepository.java
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\repository\CategoryRepository.java
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\repository\Repository.java
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\service\AuthorService.java
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\service\BookService.java
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\service\CategoryService.java
+C:\Users\Ислам\OneDrive\Desktop\library-system\src\main\java\library\ui\ConsoleMenu.java
