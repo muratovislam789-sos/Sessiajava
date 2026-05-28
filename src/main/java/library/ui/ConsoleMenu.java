@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 /**
  * Консольный интерфейс библиотечной системы.
- * Отвечает только за ввод/вывод — бизнес-логика в сервисах.
+ * Отвечает только за ввод/вывод.
  */
 public class ConsoleMenu {
 
@@ -169,18 +169,18 @@ public class ConsoleMenu {
         }, () -> System.out.println("  ❌ Книга не найдена."));
     }
 
-    private void deleteBook() {
-        listBooks(bookService.getAll());
-        print("  ID книги для удаления: ");
-        int id = readInt();
-        print("  Подтвердите удаление (да/нет): ");
-        if (scanner.nextLine().trim().equalsIgnoreCase("да")) {
-            boolean ok = bookService.delete(id);
-            System.out.println(ok ? "  ✅ Удалено." : "  ❌ Ошибка удаления.");
-        } else {
-            System.out.println("  ↩ Отменено.");
-        }
+private void deleteBook() {
+    listBooks(bookService.getAll());
+    print("  ID книги для удаления: ");
+    int id = readInt();
+    print("  Подтвердите удаление (1-да, 0-нет): ");
+    if (scanner.nextLine().trim().equals("1")) {
+        boolean ok = bookService.delete(id);
+        System.out.println(ok ? "  ? Удалено." : "  ? Ошибка удаления.");
+    } else {
+        System.out.println("  Отменено.");
     }
+}
 
     // ── Меню: Авторы ──────────────────────────────────────────────────────────
 
